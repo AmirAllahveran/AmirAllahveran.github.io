@@ -1540,6 +1540,15 @@ body.is-preload #header .content .inner {
 	opacity: 0;
 }
 
+.contactItem{
+	margin-left: 10px;
+	/* justify-content: center; */
+}
+
+.contactIcon{
+	list-style-type: none;
+}
+
 @media screen and (max-width: 980px) {
 
 	#header .content p br {
@@ -1583,6 +1592,10 @@ body.is-preload #header .content .inner {
 
 	#header {
 		padding: 1.5rem 0;
+	}
+
+	#header .content {
+		display: block;
 	}
 
 	#header .content .inner {
